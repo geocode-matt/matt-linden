@@ -37,7 +37,7 @@ function Contact(props) {
     return (
       <section className="about">
       <hr></hr>
-      
+      <br></br>
       <div className="row justify-content-center">
         <div className="col-10" id="contact-section">
             <div className="text-block">
@@ -69,6 +69,7 @@ function Contact(props) {
         </div>
       </div>  
       </div>
+      <br></br><br></br>
     </section>
     )
     }
