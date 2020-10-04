@@ -2,50 +2,50 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function Contact(props) {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+//   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
-    const [errorMessage, setErrorMessage] = useState('');
+//     const [errorMessage, setErrorMessage] = useState('');
 
-    const { name, email, message } = formState;
+//     const { name, email, message } = formState;
 
-    function handleChange(e) {
-        if (e.target.name === 'email') {
-            const isValid = validateEmail(e.target.value);
+//     function handleChange(e) {
+//         if (e.target.name === 'email') {
+//             const isValid = validateEmail(e.target.value);
     
-                if(!isValid) {
-                    setErrorMessage('please enter a valid email address');
-                } else {
-                    setErrorMessage('');
-                }
+//                 if(!isValid) {
+//                     setErrorMessage('please enter a valid email address');
+//                 } else {
+//                     setErrorMessage('');
+//                 }
 
-            } else {
-                if (!e.target.value.length) {
-                  setErrorMessage(`${e.target.name} is required.`);
-                } else {
-                  setErrorMessage('');
-                } 
-        }
+//             } else {
+//                 if (!e.target.value.length) {
+//                   setErrorMessage(`${e.target.name} is required.`);
+//                 } else {
+//                   setErrorMessage('');
+//                 } 
+//         }
 
-        if (!errorMessage) {
-        setFormState({...formState, [e.target.name]: e.target.value })
-        }
-    }
+//         if (!errorMessage) {
+//         setFormState({...formState, [e.target.name]: e.target.value })
+//         }
+//     }
 
-    function handleSubmit(e) {
-        e.preventDefault();
-    }
+//     function handleSubmit(e) {
+//         e.preventDefault();
+//     }
     return (
       <section className="about">
       <hr></hr>
-      <br></br>
+      <br></br><br></br><br></br><br></br>
       <div className="row justify-content-center">
         <div className="col-10" id="contact-section">
             <div className="text-block">
-                Questions or business inquiries? <br></br>Use the form or contact me via 
+                Questions or business inquiries? <br></br>Contact me via 
                 <a href="mailto:mlindenx@gmail.com" className="contact-text"> email </a> or 
                 <a href="tel:817-575-9370" className="contact-text"> phone </a>.
             </div>
-            <div id="form-container">
+            {/* <div id="form-container">
         <form className="justify-content-center" id="contact-form">
           <div className="form-input">
               <input className="form-control" placeholder="Name" type="text" name="name"  defaultValue={name} onBlur={handleChange}/>
@@ -66,10 +66,10 @@ function Contact(props) {
           <button data-testid='button' className="btn mt-4" type="submit" onSubmit={handleSubmit}>Send</button>
           </div>
       </form>
-        </div>
+        </div> */}
       </div>  
       </div>
-      <br></br><br></br>
+      <br></br><br></br><br></br><br></br><br></br>
     </section>
     )
     }
