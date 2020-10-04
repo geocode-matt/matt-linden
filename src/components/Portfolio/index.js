@@ -2,12 +2,12 @@ import React from 'react';
 import ProjectCards from '../../components/Project'
 import portfolio from '../../portfolio.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import passwordGenerator from '../../assets/images/password-generatorv2.jpg';
+import employeeTracker from '../../assets/images/employee-tracker.png';
 import weatherDashboard from '../../assets/images/weather-dashboardv2.jpg';
-import techBlog from '../../assets/images/tech-blog.jpg';
-import noteTaker from '../../assets/images/note-taker.jpg';
-import barkeep from '../../assets/images/barkeep.jpg';
-import gameplanRealtyTeam from '../../assets/images/gameplan-realty-team.jpg';
+import techBlog from '../../assets/images/tech-blog-edit.png';
+import noteTaker from '../../assets/images/note-taker-edit.png';
+import barkeep from '../../assets/images/barkeep-edit.png';
+import gameplanRealtyTeam from '../../assets/images/gameplan-realty-team-edit.png';
 import simpleSocial from '../../assets/images/simple-social.jpg';
 import teamProfileGenerator from '../../assets/images/team-profile-generator.jpg';
 import workDayScheduler from '../../assets/images/work-day-scheduler.jpg';
@@ -28,7 +28,7 @@ function Portfolio () {
       "image": simpleSocial,
       "github": "https://github.com/tbreazier/full-stack-project",
       "blurb": "Socialize with your friends!",
-      "topics": "JavaScript, HTML, CSS"
+      "topics": "Node.js, Express.js, Sequelize, Handlebars.js, Dotenv, Bcrypt, Node Fetch, Nodemailer, UI Avatar"
     },
     {
       "id": 3,
@@ -36,7 +36,7 @@ function Portfolio () {
       "image": barkeep,
       "github": "https://github.com/jessicajernigan/team5-project-1",
       "blurb": "Thirsty? Find your cocktail of choice!",
-      "topics": "JavaScript, HTML, CSS"
+      "topics": "JavaScript, HTML, CSS, TheCocktailDB API"
     },
     {
       "id": 4,
@@ -51,8 +51,8 @@ function Portfolio () {
       "name": "Team Profile Generator",
       "image": teamProfileGenerator,
       "github": "https://github.com/geocode-matt/Team-Profile-Generator",
-      "blurb": "New team? Quickly generate a team profile page",
-      "topics": "JavaScript, HTML, CSS"
+      "blurb": "Quickly generate a profile page for your team",
+      "topics": "Node.js, Inquirer, Jest, JavaScript, HTML, CSS"
     },
     {
       "id": 6,
@@ -64,11 +64,11 @@ function Portfolio () {
     },
     {
     "id": 7,
-    "name": "Random Password Generator",
-    "image": passwordGenerator,
-    "github": "https://github.com/geocode-matt/password-generator",
-    "blurb": "Quickly generate a random password",
-    "topics": "JavaScript, HTML, CSS"
+    "name": "Employee Tracker",
+    "image": employeeTracker,
+    "github": "https://github.com/geocode-matt/employee-tracker",
+    "blurb": "Easily keep track of your company employees",
+    "topics": "Node.js, Inquirer, mySQL, ascii-art"
     },
     {
     "id": 8,
@@ -84,7 +84,7 @@ function Portfolio () {
       "image": noteTaker,
       "github": "https://github.com/geocode-matt/Note-Taker",
       "blurb": "Keep track of your important notes",
-      "topics": "JavaScript, HTML, CSS, Bootstrap, Moment, Sequelize, Node.js, Handlebars.js, dotenv, bcrypt"
+      "topics": "Express.js, JavaScript, HTML, CSS"
     }
   ];
 
