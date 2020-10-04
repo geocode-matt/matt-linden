@@ -22,12 +22,12 @@
     <img src="./src/assets/images/screenshot.png">
 
   ## Installation Instructions
-  Download the application from the GitHub repository here: https://github.com/geocode-matt/react-portfolio.
-
+  Download the application from the GitHub repository here: https://github.com/geocode-matt/matt-linden
+  
   ## Usage
   Visit the deployed application here:
-        https://geocode-matt.github.io/react-portfolio/
-        
+        https://geocode-matt.github.io/matt-linden/
+
   ## Contribution Guidelines
   Please email the project owner (mlindenx@email.com) for contribution information. 
 
