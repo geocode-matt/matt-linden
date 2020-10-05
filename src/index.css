@@ -68,7 +68,7 @@ i {
 }
 
 .navbar {
-  max-width: 90%;
+  max-width: 95%;
   margin: 0 auto 0 auto !important;
   justify-content: space-between !important;
 }
@@ -102,7 +102,7 @@ i {
 
 #footer {
   text-align: center;
-  max-width: 90%;
+  max-width: 95%;
   margin: 0 auto 0 auto !important;
 }
 
@@ -194,20 +194,22 @@ i {
 .project-name {
   background-color: transparent;
   color: rgb(255, 196, 0) !important;
-  margin: 0 0 0 0;
   padding: 5px 5px 5px 5px;
   text-decoration: none;
   font-size: 16px;
+  max-width: 88%;
+  margin: 0 auto 0 auto !important;
 }
 
 .project-topics {
   text-decoration: none;
   background-color: transparent;
   color: rgb(212, 212, 212) !important;
-  margin: 0 0 0 0;
   padding: 5px 5px 5px 5px;
   font-size: .5rem;
   text-decoration: none;
+  max-width: 88%;
+  margin: 0 auto 0 auto !important;
 }
 
 .project-blurb {
@@ -215,10 +217,11 @@ i {
   font-style: italic;
   background-color: transparent;
   color: rgb(212, 212, 212) !important;
-  margin: 0 0 0 0;
   padding: 5px 5px 5px 5px;
   font-size: .8rem;
   text-decoration: none;
+  max-width: 88%;
+  margin: 0 auto 0 auto !important;
 }
 
 #form-container {
@@ -265,7 +268,7 @@ i {
   display: inline-block;
   overflow-wrap: break-word;
   line-height: 3rem;
-  max-width: 70%;
+  max-width: 75%;
   /* max-height: 100%; */
   margin: 0 auto 0 auto !important;
   /* padding: 20px 50px 20px 50px; */
@@ -292,7 +295,7 @@ i {
 }
 
 #about-section {
-  max-width: 70%;
+  max-width: 75%;
 }
 
 .about-writeup {
