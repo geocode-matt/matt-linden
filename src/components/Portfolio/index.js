@@ -6,6 +6,8 @@ import employeeTracker from '../../assets/images/employee-tracker.png';
 import weatherDashboard from '../../assets/images/weather-dashboardv2.jpg';
 import techBlog from '../../assets/images/tech-blog-edit.png';
 import noteTaker from '../../assets/images/note-taker-edit.png';
+import socialNetworkApi from '../../assets/images/socialnetworkapi.JPG';
+import ecommerceBackend from '../../assets/images/ecommercebackend.JPG';
 import barkeep from '../../assets/images/barkeep-edit.png';
 import gameplanRealtyTeam from '../../assets/images/gameplan-realty-team-edit.png';
 import simpleSocial from '../../assets/images/simple-social.jpg';
@@ -40,14 +42,30 @@ function Portfolio () {
     },
     {
       "id": 4,
+      "name": "Social Network API",
+      "image": socialNetworkApi,
+      "github": "https://github.com/geocode-matt/social-network-api",
+      "blurb": "An API built for social networking",
+      "topics": "Express.js, MongoDB, Mongoose, Moment.js"
+    },
+    {
+      "id": 5,
       "name": "Tech Blog",
       "image": techBlog,
       "github": "https://github.com/geocode-matt/Tech-Blog",
       "blurb": "A blog for technical discussion",
-      "topics": "JavaScript, HTML, CSS, Bootstrap, Moment, Sequelize, Node.js, Handlebars.js, dotenv, bcrypt"
+      "topics": "JavaScript, HTML, CSS, Bootstrap, Moment.js, Sequelize, Node.js, Handlebars.js, dotenv, bcrypt"
     },
     {
-      "id": 5,
+      "id": 6,
+      "name": "E-Commerce Backend",
+      "image": ecommerceBackend,
+      "github": "https://github.com/geocode-matt/e-commerce-backend",
+      "blurb": "A backend built for an e-commerce site",
+      "topics": "Node.js, Express.js, mySQL, Sequelize, dotenv, bcrypt"
+    },
+    {
+      "id": 7,
       "name": "Team Profile Generator",
       "image": teamProfileGenerator,
       "github": "https://github.com/geocode-matt/Team-Profile-Generator",
@@ -55,7 +73,7 @@ function Portfolio () {
       "topics": "Node.js, Inquirer, Jest, JavaScript, HTML, CSS"
     },
     {
-      "id": 6,
+      "id": 8,
       "name": "Work Day Scheduler",
       "image": workDayScheduler,
       "github": "https://github.com/geocode-matt/WorkdayScheduler",
@@ -63,7 +81,7 @@ function Portfolio () {
       "topics": "JavaScript, HTML, CSS"
     },
     {
-    "id": 7,
+    "id": 9,
     "name": "Employee Tracker",
     "image": employeeTracker,
     "github": "https://github.com/geocode-matt/employee-tracker",
@@ -71,15 +89,15 @@ function Portfolio () {
     "topics": "Node.js, Inquirer, mySQL, ascii-art"
     },
     {
-    "id": 8,
+    "id": 10,
     "name": "Weather Dashboard",
     "image": weatherDashboard,
     "github": "https://github.com/geocode-matt/Weather-Dashboard",
     "blurb": "Travel plans? Check the weather first!",
-    "topics": "JavaScript, jQuery, HTML, CSS, Bootstrap, Moment, API"
+    "topics": "JavaScript, jQuery, HTML, CSS, Bootstrap, Moment.js, API"
     },
     {
-      "id": 9,
+      "id": 11,
       "name": "Note Taker",
       "image": noteTaker,
       "github": "https://github.com/geocode-matt/Note-Taker",
