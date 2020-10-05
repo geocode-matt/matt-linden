@@ -32,11 +32,11 @@ function About(props) {
         <i className="devicon-python-plain-wordmark colored"></i>
         <i className="devicon-html5-plain-wordmark colored"></i>
         <i className="devicon-css3-plain-wordmark colored"></i>
+        <i className="devicon-jquery-plain-wordmark colored"></i>
         <i className="devicon-bootstrap-plain-wordmark colored"></i>
         <i className="devicon-foundation-plain-wordmark colored blue"></i>
         <i className="devicon-visualstudio-plain colored"></i>
         <i className="devicon-github-plain-wordmark white"></i>
-        <i className="devicon-jquery-plain-wordmark colored"></i>
         <i className="devicon-handlebars-plain-wordmark white"></i>
         <i className="devicon-mysql-plain-wordmark colored blue"></i>
         <i className="devicon-npm-original-wordmark colored"></i>
