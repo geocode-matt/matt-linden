@@ -6,7 +6,7 @@ function About(props) {
         <hr></hr>
         
         <div className="row justify-content-center">
-          <div className="col-10" id="about-section">
+          <div className="col-8" id="about-section">
               <div className="about-writeup">
               
           <div className="ml-photo-container">
@@ -15,12 +15,12 @@ function About(props) {
             <p className="text-align-center text-title">
               About Me:
             </p>
-            <p className="text-align-left">
+            <p className="text-align-left aboutme-text">
             Welcome to my portfolio page! I am a Full Stack Web Developer and a recent graduate of the Full Stack Web Development Bootcamp at the University of Texas at Austin. 
-            <br></br><br></br>
-            A lifelong computer enthusiast with a recently reignited passion for programming, I am seeking employment as a web/software developer in the Dallas, Austin, or Houston, Texas areas. With significant experience working as a geoscientist in the energy industry, I possess a strong technical skillset and a track record of successful project management within multidisciplinary team environments. Please view my projects and resume and feel free to contact me!
+            {/* <br></br><br></br>
+            A lifelong computer enthusiast with a recently reignited passion for programming, I am seeking employment as a web/software developer in the Dallas, Austin, or Houston, Texas areas. With significant experience working as a geoscientist in the energy industry, I possess a strong technical skillset and a track record of successful project management within multidisciplinary team environments. Please view my projects and resume and feel free to contact me! */}
             </p>
-      <br></br>
+      <br></br><br></br><br></br>
         </div>
         </div>  
         </div>
