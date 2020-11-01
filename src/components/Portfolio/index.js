@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectCards from '../../components/Project'
 import portfolio from '../../portfolio.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import buskr from '../../assets/images/buskr.png';
 import employeeTracker from '../../assets/images/employee-tracker.png';
 import weatherDashboard from '../../assets/images/weather-dashboardv2.jpg';
 import techBlog from '../../assets/images/tech-blog-edit.png';
@@ -26,6 +27,14 @@ function Portfolio () {
     },
     {
       "id": 2,
+      "name": "Buskr",
+      "image": buskr,
+      "github": "https://github.com/jessicajernigan/dreamteam_project3",
+      "blurb": "A platform for local musicians to share their tunes!",
+      "topics": "[MongoDB, Express.js, React.js, Node.js, GraphQL, Apollo, Stripe.js, bcrypt, dotenv, etc.]"
+    },
+    {
+      "id": 3,
       "name": "Simple Social",
       "image": simpleSocial,
       "github": "https://github.com/tbreazier/full-stack-project",
@@ -33,7 +42,7 @@ function Portfolio () {
       "topics": "[Node.js, Express.js, Sequelize, Handlebars.js, Dotenv, Bcrypt, Node Fetch, Nodemailer, UI Avatar]"
     },
     {
-      "id": 3,
+      "id": 4,
       "name": "BarKeep",
       "image": barkeep,
       "github": "https://github.com/jessicajernigan/team5-project-1",
@@ -41,7 +50,7 @@ function Portfolio () {
       "topics": "[JavaScript, HTML, CSS, TheCocktailDB API]"
     },
     {
-      "id": 4,
+      "id": 5,
       "name": "Social Network API",
       "image": socialNetworkApi,
       "github": "https://github.com/geocode-matt/social-network-api",
@@ -49,7 +58,7 @@ function Portfolio () {
       "topics": "[Express.js, MongoDB, Mongoose, Moment.js]"
     },
     {
-      "id": 5,
+      "id": 6,
       "name": "Tech Blog",
       "image": techBlog,
       "github": "https://github.com/geocode-matt/Tech-Blog",
@@ -57,7 +66,7 @@ function Portfolio () {
       "topics": "[JavaScript, HTML, CSS, Bootstrap, Moment.js, Sequelize, Node.js, Handlebars.js, dotenv, bcrypt]"
     },
     {
-      "id": 6,
+      "id": 7,
       "name": "E-Commerce Backend",
       "image": ecommerceBackend,
       "github": "https://github.com/geocode-matt/e-commerce-backend",
@@ -65,7 +74,7 @@ function Portfolio () {
       "topics": "[Node.js, Express.js, mySQL, Sequelize, dotenv, bcrypt]"
     },
     {
-      "id": 7,
+      "id": 8,
       "name": "Team Profile Generator",
       "image": teamProfileGenerator,
       "github": "https://github.com/geocode-matt/Team-Profile-Generator",
@@ -73,7 +82,7 @@ function Portfolio () {
       "topics": "[Node.js, Inquirer, Jest, JavaScript, HTML, CSS]"
     },
     {
-      "id": 8,
+      "id": 9,
       "name": "Work Day Scheduler",
       "image": workDayScheduler,
       "github": "https://github.com/geocode-matt/WorkdayScheduler",
@@ -81,7 +90,7 @@ function Portfolio () {
       "topics": "[JavaScript, HTML, CSS]"
     },
     {
-    "id": 9,
+    "id": 10,
     "name": "Employee Tracker",
     "image": employeeTracker,
     "github": "https://github.com/geocode-matt/employee-tracker",
@@ -89,7 +98,7 @@ function Portfolio () {
     "topics": "[Node.js, Inquirer, mySQL, ascii-art]"
     },
     {
-    "id": 10,
+    "id": 11,
     "name": "Weather Dashboard",
     "image": weatherDashboard,
     "github": "https://github.com/geocode-matt/Weather-Dashboard",
@@ -97,7 +106,7 @@ function Portfolio () {
     "topics": "[JavaScript, jQuery, HTML, CSS, Bootstrap, Moment.js, API]"
     },
     {
-      "id": 11,
+      "id": 12,
       "name": "Note Taker",
       "image": noteTaker,
       "github": "https://github.com/geocode-matt/Note-Taker",
